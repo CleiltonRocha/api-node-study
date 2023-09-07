@@ -1,5 +1,5 @@
 import { fastify} from 'fastify'
-import {DatabaseMemory} from './database-memory.js'
+import 'dotenv/config'
 import {DatabasePostgres} from './database-postgres.js'
 
 const server = fastify()
